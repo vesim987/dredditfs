@@ -1,11 +1,11 @@
 {
 	"name": "dredditfs",
-	"description": "A minimal D application.",
+	"description": "reddit as filesystem",
 	"copyright": "Copyright © 2016, vesim",
 	"authors": ["vesim"],
 	"targetType": "executable",
 	"dependencies": {
-		"dfuse": "0.3.0",
+		"dfuse": { "path": "dfuse" },
 		"vibe-d": "~>0.7.28"
-	},
+	}
 }

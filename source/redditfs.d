@@ -201,7 +201,7 @@ class RedditFS : Operations
 		throw new FuseException(errno.EOPNOTSUPP);
 	}
 	
-	override ulong write(const(char)[] path, in ubyte[] buf, ulong offset)
+	override int write(const(char)[] path, in ubyte[] buf, ulong offset)
 	{
 		debug writeln("write ", path);
 		auto file = cast(RedditFile)traverse(path);

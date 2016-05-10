@@ -1,0 +1,3 @@
+[submodule "dfuse"]
+	path = dfuse
+	url = git@github.com:KrzaQ/dfuse.git
